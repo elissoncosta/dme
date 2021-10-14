@@ -7,57 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleLogin.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <title>InTi</title>
-    <style>
-      *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-      body{
-        background: rgb(255, 77, 77);
-      }
-      .row{
-        background: #ffffff;
-        border-radius: 30px;
-        box-shadow: 6px 6px 22px rgb(0, 0, 0);
-      }
-      .img1{
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-      }
-      .btn1{
-        border: none;
-        outline: none;
-        height: 50px;
-        width: 100%;
-        background-color: rgb(255, 77, 77);
-        color: #ffffff;
-        border-radius: 4px;
-        font-weight: bold;
-      }
-      .btn1:hover{
-        background-color: #ffffff;
-        border: 1px solid rgb(255, 77, 77);
-        color: rgb(255, 77, 77);
-
-      }
-      h4, p{
-        color: rgb(255, 77, 77);
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-      }
-      a{
-        color: rgb(255, 77, 77);
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-      }
-      
-    </style>
   </head>
   <body>
 
