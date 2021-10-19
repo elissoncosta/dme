@@ -60,11 +60,11 @@
                     <img src="./img/ev2.jpeg" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only"></span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <a class="carousel-control-next" href="" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only"></span>
             </a>
@@ -74,22 +74,22 @@
 
         <!-- SLIDER -->
         <div id="slider">
-            <div class="container pt-5">
+            <div class="container p-5">
                 <div class="row mb-5">
-                    <div class="col-lg-4 align-self-center ">
+                    <div class="col-lg-6 align-self-center ">
                         <h1>Hoje é seu dia</h1>
-                        <h4 class="mb-4">Faça ja a reserva do seu evento preferido</h4>
+                        <h4 class="mb-4">Faça já a reserva do seu evento, não perca a oportunidade de se divertir e ser feliz</h4>
                         <a href="" class="btn button-primary btn-dark button d-md-inline-block d-block mb-md-0 mb-2">Eventos</a>
                         <a href="" class="btn button-outline-primary  btn-outline-dark button d-md-inline-block d-block mb-md-0 mb-2">Contatos</a>
                     </div>
-                    <div class="col-lg-8 align-self-center text-center">
+                    <div class="col-lg-6 align-self-center text-center">
                         <img src="./img/top.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
         <!-- //SLIDER -->
-        <div class="container mb-5">
+        <div class="container mb-5 mt-5">
             <h1>Em Alta</h1>
             <div class="row d-flex justify-content-around">
                 <div class="card m-2">
@@ -134,7 +134,7 @@
 
         </div>
 
-        <div class="container mb-5">
+        <div class="container mb-5 mt-5">
             <h1>Ultimos eventos</h1>
             <div class="row d-flex justify-content-around">
                 <div class="card m-2">
