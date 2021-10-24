@@ -65,113 +65,124 @@
     <body>
 
         <section class="form my-4 mx-5">
-        <div class="container">
-            <div class="row g-0 align-items-center">
-                <div class="col-lg-7 px-5 pt-4">
-                    <div class="col-lg-2">
-                        <img src="./img/logo.png" class="logo img-fluid w-30" alt="">
+            <div class="container">
+                <div class="row g-0 align-items-center">                    
+                    <div class="col-lg-7 px-5 pt-4">
+                        <div class="col-lg-2">
+                            <img src="./img/logo.png" class="logo img-fluid w-30" alt="">
+                        </div>
                     </div>
-                    <div class="col-lg-2">
-                        hop
+
+                    <div class=" px-5 pt-4" >
+                        <form action="" class="row gy-3 align-items-center" >
+
+                            <div class="col-md-6">
+                                <div class="col-lg-10">
+                                    <label>Nome do Contratante:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+
+                            
+                            <div class="col-md-6">
+                                <div class="col-lg-10">
+                                    <label>CPF:</label>
+                                    <input type="text" placeholder="CPF" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="col-lg-10">
+                                    <label>Nome do Evento:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3">
+                                <div class="col-lg-6">
+                                    <label>Fone1:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3">
+                                <div class="col-lg-6">
+                                    <label>Fone2:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-6">
+                                <label>Tipo do Evento:</label>
+                                <div class="radio">
+                                    <label class="radio-inline">Evento Presencial</label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>   
+                                    
+                                    <label class="radio-inline">Evento Online</label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label>Sexo:</label>
+                                <select class="form-select input-line-height" aria-label=".form-select-lg example">
+                                    <option>Masculino</option>
+                                    <option>Fêminino</option>
+                                    <option>Ambos</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label>faixa etária:</label>
+                                <select class="form-select">
+                                    <option>LIVRE (L)</option>
+                                    <option>Não recomendado para menores de 10 (dez) anos</option>
+                                    <option>Não recomendado para menores de 12 (doze) anos</option>
+                                    <option>Não recomendado para menores de 14 (quatorze) anos</option>
+                                    <option>Não recomendado para menores de 16 (dezesseis) anos</option>
+                                    <option>Não recomendado para menores de 18 (dezoito) anos</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="col-lg-10">
+                                    <label>Quantidade de Pessoas:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="col-lg-10">
+                                    <label>Local do Evento:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="col-lg-8">
+                                    <label>Data de Inicio:</label>
+                                    <input type="date" onfocus="(this.type='date')" id="date" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="col-lg-8">
+                                    <label>Data de Término:</label>
+                                    <input type="date" onfocus="(this.type='date')" id="date" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <button type="button" class="btn1 mb-4">cadastrar</button>
+                                </div>
+                            </div>
+
+                        </form>
+                        <p></p>
                     </div>
-                    <form action="">
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" placeholder="NOME DO EVENTO" class="form-control my-3 p-2">
-                            </div>
-                        </div>
-
-                        <div class="radio">
-                            <label class="radio-inline">
-                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                Evento Presencial
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <label class="radio-inline">
-                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                                Evento Online
-                            </label>
-                        </div>
-                        
-                        <label>Tipo de Evento:</label>
-                        <select class="form-control">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-
-                        <label>Sexo::</label>
-                        <select class="form-control">
-                            <option>Masculino</option>
-                            <option>Fêminino</option>
-                            <option>Ambos</option>
-                        </select>
-
-                        <label>faixa etária:</label>
-                        <select class="form-control">
-                            <option>LIVRE (L)</option>
-                            <option>Não recomendado para menores de 10 (dez) anos</option>
-                            <option>Não recomendado para menores de 12 (doze) anos</option>
-                            <option>Não recomendado para menores de 14 (quatorze) anos</option>
-                            <option>Não recomendado para menores de 16 (dezesseis) anos</option>
-                            <option>Não recomendado para menores de 18 (dezoito) anos</option>
-                        </select>
-
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" placeholder="A expectativa de participantes" class="form-control my-3 p-3">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" placeholder="NOME" class="form-control my-3 p-3">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" placeholder="NOME" class="form-control my-3 p-3">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" placeholder="NOME" class="form-control my-3 p-3">
-                            </div>
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" placeholder="EMAIL" class="form-control my-3 p-3">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" onfocus="(this.type='date')" id="date" placeholder="DATA EVENTO INICIO" class="form-control my-3 p-3">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" onfocus="(this.type='date')" id="date" placeholder="DATA EVENTO TERMINO" class="form-control my-3 p-3">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <input type="text" placeholder="CPF" class="form-control my-3 p-3">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                            <button type="button" class="btn1 mb-4">cadastrar</button>
-                            </div>
-                        </div>
-                        
-                        <p>Já possui uma conta? <a href="login.php"> Faça seu Login</a></p>
-                    </form>
                 </div>
             </div>
-        </div>
         </section>
 
 
