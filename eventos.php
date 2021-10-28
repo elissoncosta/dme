@@ -74,52 +74,34 @@
                     </div>
 
                     <div class=" px-5 pt-4" >
-                        <form action="" class="row gy-3 align-items-center" >
+                        <form action="" class="row gy-3 align-items-center" style="box-shadow: none !important;" >
 
                             <div class="col-md-6">
-                                <div class="col-lg-10">
+                                <div class="col-lg-12">
                                     <label>Nome do Contratante:</label>
                                     <input type="text" class="form-control my-2 p-2">
                                 </div>
                             </div>
 
-                            
                             <div class="col-md-6">
-                                <div class="col-lg-10">
+                                <label>Tipo de Pessoa:</label>
+                                <select class="form-select input-line-height" aria-label=".form-select-lg example">
+                                    <option>Fisíca</option>
+                                    <option>Juridica</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="col-lg-12">
                                     <label>CPF:</label>
-                                    <input type="text" placeholder="CPF" class="form-control my-2 p-2">
+                                    <input type="text" class="form-control my-2 p-2">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <div class="col-lg-10">
-                                    <label>Nome do Evento:</label>
+                                <div class="col-lg-12">
+                                    <label>CNPJ:</label>
                                     <input type="text" class="form-control my-2 p-2">
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-3">
-                                <div class="col-lg-6">
-                                    <label>Fone1:</label>
-                                    <input type="text" class="form-control my-2 p-2">
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-3">
-                                <div class="col-lg-6">
-                                    <label>Fone2:</label>
-                                    <input type="text" class="form-control my-2 p-2">
-                                </div>
-                            </div>
-                        
-                            <div class="col-md-6">
-                                <label>Tipo do Evento:</label>
-                                <div class="radio">
-                                    <label class="radio-inline">Evento Presencial</label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>   
-                                    
-                                    <label class="radio-inline">Evento Online</label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
                                 </div>
                             </div>
 
@@ -130,6 +112,39 @@
                                     <option>Fêminino</option>
                                     <option>Ambos</option>
                                 </select>
+                            </div>
+                            
+                            <div class="col-md-3">
+                                <div class="col-lg-6">
+                                    <label>Telefone1:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3">
+                                <div class="col-lg-6">
+                                    <label>Telefone2:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="col-lg-12">
+                                    <label>Nome do Evento:</label>
+                                    <input type="text" class="form-control my-2 p-2">
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <label>Tipo do Evento:</label>
+                                <div class="radio">
+                                    <label class="radio-inline">Evento Presencial  </label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>   
+                                    
+                                    <label class="radio-inline">  Evento Online</label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                </div>
                             </div>
 
                             <div class="col-md-6">
@@ -145,14 +160,14 @@
                             </div>
 
                             <div class="col-md-6">
-                                <div class="col-lg-10">
+                                <div class="col-lg-12">
                                     <label>Quantidade de Pessoas:</label>
                                     <input type="text" class="form-control my-2 p-2">
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <div class="col-lg-10">
+                                <div class="col-lg-12">
                                     <label>Local do Evento:</label>
                                     <input type="text" class="form-control my-2 p-2">
                                 </div>
@@ -173,8 +188,8 @@
                             </div>
                             
                             <div class="form-row">
-                                <div class="col-lg-7">
-                                    <button type="button" class="btn1 mb-4">cadastrar</button>
+                                <div class="10" style="margin-top: 30px;">
+                                    <button type="button" class="btn1 mb-4">CADASTRAR</button>
                                 </div>
                             </div>
 

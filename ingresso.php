@@ -66,15 +66,16 @@
 
         <section class="form my-4 mx-5">
             <div class="container">
-                <div class="row g-0 align-items-center">                    
+                <div class="row align-items-center">                    
                     <div class="col-lg-7 px-5 pt-4">
                         <div class="col-lg-2">
                             <img src="./img/logo.png" class="logo img-fluid w-30" alt="">
                         </div>
                     </div>
 
-                    <div class=" px-5 pt-4" >
-                        <form action="" class="row gy-3 align-items-center" >
+                    <!-- Form -->
+                    <div class="px-5 pt-4" >
+                        <form class="row gy-3 align-items-center" style="box-shadow: none !important;">
 
                             <div class="col-md-6">
                                 <label>Evento:</label>
@@ -86,7 +87,7 @@
                             </div>
 
                             <div class="col-md-6">
-                                <div class="col-lg-10">
+                                <div class="col-lg-12">
                                     <label>Valor:</label>
                                     <input type="number" class="form-control my-2 p-2">
                                 </div>
@@ -103,9 +104,9 @@
                             </div>
 
                             <div class="col-md-6">
-                                <div class="col-lg-10">
+                                <div class="col-lg-12">
                                     <label>Quantidade por Lote:</label>
-                                    <input type="text" class="form-control my-2 p-2">
+                                    <input type="number" class="form-control my-2 p-2">
                                 </div>
                             </div>
                             
@@ -120,8 +121,8 @@
 
                             
                             <div class="form-row">
-                                <div class="col-lg-7">
-                                    <button type="button" class="btn1 mb-4">cadastrar</button>
+                                <div class="10" style="margin-top: 30px;">
+                                    <button type="button" class="btn1 mb-4">CADASTRAR</button>
                                 </div>
                             </div>
 
